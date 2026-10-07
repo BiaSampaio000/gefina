@@ -1,0 +1,13 @@
+{
+    "name": "gefina",
+    "description": "Sitema de gestão de contas a receber.",
+    "version": "0.0.0",
+    "author": "Beatriz Sampaio",
+    "type": "module",
+    "scripts": {
+        "dev": "node --watch ./server"
+    },
+    "dependencies": {
+        "express": "^5.2.1"
+    }
+}
