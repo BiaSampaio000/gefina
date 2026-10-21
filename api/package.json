@@ -1,18 +1,18 @@
 {
-    "name": "gefina",
-    "description": "Sitema de gestão de contas a receber.",
-    "version": "0.0.0",
-    "author": "Beatriz Sampaio",
-    "type": "module",
-    "scripts": {
-        "dev": "node --watch ./server.ts",
-        "check": "tsc"
-    },
-    "dependencies": {
-        "express": "^5.2.1"
-    },
-    "devDependencies": {
-        "@types/express": "^5.0.6",
-        "typescript": "^7.0.2"
-    }
+  "name": "gefina",
+  "description": "Sitema de gestão de contas a receber.",
+  "version": "0.0.0",
+  "author": "Beatriz Sampaio",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./server.ts",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "typescript": "^7.0.2"
+  }
 }
