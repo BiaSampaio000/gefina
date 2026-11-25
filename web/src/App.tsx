@@ -17,16 +17,14 @@ export default function App() {
                 const datas = await response.json();
 
                 setInvoices(datas);
-
-
             } catch {
                 setError('Erro ao buscar faturas');
             } finally {
                 setLoading(false);
 
-                getInvoices()
             }
         }
+        getInvoices()
     }, []);
 
 
