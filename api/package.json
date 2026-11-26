@@ -5,7 +5,8 @@
   "author": "Beatriz Sampaio",
   "type": "module",
   "scripts": {
-    "dev": "node --watch ./server.ts",
+    "start": "node ./server.ts",
+    "dev": "node --watch --env-file=.env./server.ts",
     "check": "tsc"
   },
   "dependencies": {
